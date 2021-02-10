@@ -23,7 +23,7 @@ if random_fortune_message <= 2:
         print("Today, you will be a pleasant surprise!")
 
 else:
-    if random_fortune_message <=3:
+    if random_fortune_message <= 3:
         print("Good things will come for those who wait.")
     else:
         print("Be careful what you wish for, it might come true.")
