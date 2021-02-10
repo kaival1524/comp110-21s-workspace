@@ -28,8 +28,9 @@ def fortune_cookie() -> str:
             return "Be careful what you wish for, it might come true."
 
 
-
 # Python Idiom for "starting" the program when run as a module.
 # The special dunder variable __name__ will be "__main__" when run as module. 
+
+
 if __name__ == "__main__":
     main()

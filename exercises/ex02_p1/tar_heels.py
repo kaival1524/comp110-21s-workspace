@@ -9,7 +9,9 @@ def main() -> None:
     x: str = tar_heels(choice)
     print(x)
 
+
 def tar_heels(a: int) -> str:
+    """This function shows if number is divisible by 7, 2, both, or neither."""
     if a % 7 == 0 and a % 2 == 0:
         return "TAR HEELS"
     else:
